@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!--程序集配置表-->
+  <Assembly>Assembly-CSharp</Assembly>
+
+  <!---->
+
+
+  <!--框架模块配置表-->
+  <IMonoModule>TestModule</IMonoModule>
+  <IMonoModule name="网络模块" level ="1">NetWorkModule</IMonoModule>
+  <IMonoModule name="对象池模块" level="2">PoolModule</IMonoModule>
+  <IMonoModule name="Resource加载模块" level="3">ResModule</IMonoModule>
+  <IMonoModule name="寻址加载模块" level="4">AddressModule</IMonoModule> 
+  <IMonoModule name="相机控制模块" level="4">CameraModule</IMonoModule>
+  <!---->
+
+  <!--其他配置表全名称带扩展-->
+  <ConfigFullName name="动画配置" >AnimatorConfig.xlsx</ConfigFullName>
+  <ConfigFullName name="装备数值配置" >EquipConfig.xlsx</ConfigFullName>
+  <ConfigFullName name="" > </ConfigFullName>
+  <!---->
+
+</Root>
+
